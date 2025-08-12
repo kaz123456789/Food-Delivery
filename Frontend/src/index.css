@@ -9,7 +9,6 @@
 
 body {
   min-height: 100vh;
-  padding: 0 100px;
 }
 
 a {
@@ -18,6 +17,15 @@ a {
 }
 
 .app{
-  width: 80;
+  width: 80%;
   margin: auto;
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
